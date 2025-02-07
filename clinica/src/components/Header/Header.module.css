@@ -165,4 +165,64 @@
     
   }
 
-  /* ljklk */
+.li:hover .ulSmenu {
+    max-height: 100vh;
+}
+
+ .ulSmenu{
+  position: absolute;
+  left: 0px;
+  width: max-content;
+  max-height: 0;
+  background-color:#16236d;
+  overflow: hidden;
+  border-radius: 5px;
+  transition: 1s;
+ }
+
+ .ulSmenu a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.ulSmenu a:hover {
+  color:#e8b3b3
+}
+
+.linkSmenu {
+  font-size: 16px;
+  margin: 10px;
+}
+
+/* submenu do desktop*/
+
+.liDesktop:hover .ulSmenuDesktop {
+  max-height: 100vh;
+}
+
+.ulSmenuDesktop{
+position: absolute;
+left: 0px;
+width: max-content;
+max-height: 0;
+background-color: #16236d;
+overflow: hidden;
+border-radius: 5px;
+transition: 1s;
+}
+
+.ulSmenuDesktop a {
+display: block;
+color: #fff;
+text-decoration: none;
+}
+
+.ulSmenuDesktop a:hover {
+color:#e8b3b3
+}
+
+.linkSmenuDesktop {
+font-size: 16px;
+margin: 10px;
+}
