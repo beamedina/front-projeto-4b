@@ -94,6 +94,11 @@
   
   .li {
     margin: 1rem 0;
+    /* position: relative; */
+  }
+
+  .liDesktop{
+    position: relative;
   }
   
   .link {
@@ -194,6 +199,8 @@
   font-size: 16px;
   margin: 10px;
 }
+
+
 
 /* submenu do desktop*/
 
