@@ -16,7 +16,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.logo}>
         <Image className={styles.img} src='/images/estetoscopio.png' alt='' width={40} height={40} />
-        <h1 className={styles.h1}>Clínica MO</h1>
+        <h1 className={styles.h1}>Clínica M.O</h1>
       </div>
       <button
         className={styles.menuButton + (menuOpen ? " " + styles.open : "")}
@@ -65,19 +65,19 @@ export default function Header() {
                   </li>
                 </ul>
           </li>
-          <li className={styles.li}><Link className={styles.link} href="/consulta">Consulta</Link>
+          <li className={styles.li}><Link className={styles.link} href="/agendamento">Agendamento</Link>
             <ul className={styles.ulSmenu}>
                   <li className={styles.liSmenu}>
-                    <Link className={styles.linkSmenu} href="/consulta/listar">Listar Consultas</Link>
+                    <Link className={styles.linkSmenu} href="/agendamento/listar">Listar Consultas</Link>
                   </li>
                   <li className={styles.liSmenu}>
-                    <Link className={styles.linkSmenu} href="/consulta/adicionar">Agendar Consulta</Link>
+                    <Link className={styles.linkSmenu} href="/agendamento/adicionar">Agendar Consulta</Link>
                   </li>
                   <li className={styles.liSmenu}>
-                    <Link className={styles.linkSmenu} href="/consulta/editar">Editar Agendamento</Link>
+                    <Link className={styles.linkSmenu} href="/agendamento/editar">Editar Agendamento</Link>
                   </li>
                   <li className={styles.liSmenu}>
-                    <Link className={styles.linkSmenu} href="/consulta/excluir">Cancelar</Link>
+                    <Link className={styles.linkSmenu} href="/agendamento/excluir">Cancelar</Link>
                   </li>
                 </ul>
           </li>
@@ -122,19 +122,19 @@ export default function Header() {
                     </li>
                   </ul>
           </li>
-          <li className={styles.liDesktop}><Link className={styles.linkDesktop} href="/consulta">Consulta</Link>
+          <li className={styles.liDesktop}><Link className={styles.linkDesktop} href="/agendamento">Agendamento</Link>
             <ul className={styles.ulSmenuDesktop}>
                     <li className={styles.liSmenuDesktop}>
-                      <Link className={styles.linkSmenuDesktop} href="/consulta/listar">Listar Consultas</Link>
+                      <Link className={styles.linkSmenuDesktop} href="/agendamento/listar">Listar Consultas</Link>
                     </li>
                     <li className={styles.liSmenuDesktop}>
-                      <Link className={styles.linkSmenuDesktop} href="/consulta/adicionar">Agendar Consulta</Link>
+                      <Link className={styles.linkSmenuDesktop} href="/agendamento/adicionar">Agendar Consulta</Link>
                     </li>
                     <li className={styles.liSmenuDesktop}>
-                      <Link className={styles.linkSmenuDesktop} href="/consulta/editar">Editar Agendamento</Link>
+                      <Link className={styles.linkSmenuDesktop} href="/agendamento/editar">Editar Agendamento</Link>
                     </li>
                     <li className={styles.liSmenuDesktop}>
-                      <Link className={styles.linkSmenuDesktop} href="/consulta/excluir">Cancelar</Link>
+                      <Link className={styles.linkSmenuDesktop} href="/agendamento/excluir">Cancelar</Link>
                     </li>
                   </ul>
           </li>
