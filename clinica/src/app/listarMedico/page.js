@@ -15,6 +15,7 @@ export default function efeitos() {
         setMedicos(data);
         console.log(data)
     }
+    //kkk
 
 
     useEffect(() => {
