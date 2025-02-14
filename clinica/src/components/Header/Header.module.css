@@ -213,7 +213,7 @@ position: absolute;
 left: 0px;
 width: max-content;
 max-height: 0;
-background-color: #16236d;
+background-color: #81a9ff;
 overflow: hidden;
 border-radius: 5px;
 transition: 1s;
@@ -226,7 +226,7 @@ text-decoration: none;
 }
 
 .ulSmenuDesktop a:hover {
-color:#e8b3b3
+color:#08137a
 }
 
 .linkSmenuDesktop {

@@ -1,0 +1,16 @@
+.table{
+    color: black;
+    border: solid 2px rgb(36, 23, 160);
+    border-radius: 5px;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+.thead{
+    background-color: var(--backgroundnav);
+    color: white;
+}
+
+.td{
+   border: solid 2px rgb(36, 23, 160);
+}

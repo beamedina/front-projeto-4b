@@ -33,10 +33,10 @@ export default function Header() {
               Home
             </Link>
           </li>
-          <li className={styles.li}><Link className={styles.link} href="/medico">Médico</Link>
+          <li className={styles.li}><Link className={styles.link} href="">Médico</Link>
               <ul className={styles.ulSmenu}>
                 <li className={styles.liSmenu}>
-                  <Link className={styles.linkSmenu} href="/medico/listar">Listar</Link>
+                  <Link className={styles.linkSmenu} href="/listarMedico">Listar</Link>
                 </li>
                 <li className={styles.liSmenu}>
                   <Link className={styles.linkSmenu} href="/medico/adicionar">Adicionar</Link>
@@ -49,7 +49,7 @@ export default function Header() {
                 </li>
               </ul>
           </li>
-          <li className={styles.li}><Link className={styles.link} href="/paciente">Paciente</Link>
+          <li className={styles.li}><Link className={styles.link} href="">Paciente</Link>
             <ul className={styles.ulSmenu}>
                   <li className={styles.liSmenu}>
                     <Link className={styles.linkSmenu} href="/paciente/listar">Listar</Link>
@@ -65,7 +65,7 @@ export default function Header() {
                   </li>
                 </ul>
           </li>
-          <li className={styles.li}><Link className={styles.link} href="/agendamento">Agendamento</Link>
+          <li className={styles.li}><Link className={styles.link} href="">Agendamento</Link>
             <ul className={styles.ulSmenu}>
                   <li className={styles.liSmenu}>
                     <Link className={styles.linkSmenu} href="/agendamento/listar">Listar Consultas</Link>
@@ -90,10 +90,10 @@ export default function Header() {
               Home
             </Link>
           </li>
-          <li className={styles.liDesktop}><Link className={styles.linkDesktop} href="/medico">Médico</Link>
+          <li className={styles.liDesktop}><Link className={styles.linkDesktop} href="">Médico</Link>
             <ul className={styles.ulSmenuDesktop}>
                   <li className={styles.liSmenuDesktop}>
-                    <Link className={styles.linkSmenuDesktop} href="/medico/listar">Listar</Link>
+                    <Link className={styles.linkSmenuDesktop} href="/listarMedico">Listar</Link>
                   </li>
                   <li className={styles.liSmenuDesktop}>
                     <Link className={styles.linkSmenuDesktop} href="/medico/adicionar">Adicionar</Link>
@@ -106,7 +106,7 @@ export default function Header() {
                   </li>
                 </ul>
           </li>
-          <li className={styles.liDesktop}><Link className={styles.linkDesktop} href="/Paciente">Paciente</Link>
+          <li className={styles.liDesktop}><Link className={styles.linkDesktop} href="">Paciente</Link>
             <ul className={styles.ulSmenuDesktop}>
                     <li className={styles.liSmenuDesktop}>
                       <Link className={styles.linkSmenuDesktop} href="/paciente/listar">Listar</Link>
@@ -122,7 +122,7 @@ export default function Header() {
                     </li>
                   </ul>
           </li>
-          <li className={styles.liDesktop}><Link className={styles.linkDesktop} href="/agendamento">Agendamento</Link>
+          <li className={styles.liDesktop}><Link className={styles.linkDesktop} href="">Agendamento</Link>
             <ul className={styles.ulSmenuDesktop}>
                     <li className={styles.liSmenuDesktop}>
                       <Link className={styles.linkSmenuDesktop} href="/agendamento/listar">Listar Consultas</Link>
