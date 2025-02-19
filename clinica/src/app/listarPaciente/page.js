@@ -1,21 +1,21 @@
 'use client'
 import { useEffect, useState } from "react";
-import styles from './listarMedico.module.css'
+import styles from './listarpaciente.module.css'
 
 
 export default function efeitos() {
     const [nome, setNome] = useState(undefined)
-    const [medicos, setMedicos] = useState([])
+    const [pacientes, setPacientes] = useState([])
 
-    const getMedicos = async (nome) => {
-        let response = await fetch('https://api-clinica-2a.onrender.com/medicos');
+    const getPacientes = async (nome) => {
+        let response = await fetch('https://api-clinica-2a.onrender.com/pacientes');
         let data = await response.json();
         console.log(data, nome)
         if (typeof nome == 'undefined') {
-            setMedicos(data);
+            setPacientes(data);
         } else {
             data = data.filter(n => n.nome.toLowerCase().includes(nome.toLowerCase()));
-            setMedicos(data);
+            setPacientes(data);
         }
 
         if (!response.ok) {
@@ -25,15 +25,15 @@ export default function efeitos() {
     }
 
     useEffect(() => {
-        getMedicos(nome);
+        getPacientes(nome);
     }, [nome]);
 
     return (
        
         <div>
-            <h1>Nossos Médicos</h1>
+            <h1>Pacientes</h1>
             <div className={styles.divao}>
-                <h2>Buscar Médico</h2>
+                <h2>Buscar Paciente</h2>
                 <input onChange={(e) => setNome(e.target.value)} ></input>
                 <table className={styles.table}>
                     <thead className={styles.thead}>
@@ -42,17 +42,17 @@ export default function efeitos() {
                             <th className={styles.th}>Nome</th>
                             <th className={styles.th}>Telefone</th>
                             <th className={styles.th}>Email</th>
-                            <th className={styles.th}>Especialidade</th>
+                            <th className={styles.th}>CPF</th>
                         </tr>
                     </thead>
                     <tbody className={styles.tbody}>
-                        {medicos.map((medico, id) => (
+                        {pacientes.map((paciente, id) => (
                             <tr key={id} className={styles.tr}>
-                                <td className={styles.td}>{medico.id}</td>
-                                <td className={styles.td}>{medico.nome}</td>
-                                <td className={styles.td}>{medico.telefone}</td>
-                                <td className={styles.td}>{medico.email}</td>
-                                <td className={styles.td}>{medico.especialidade}</td>
+                                <td className={styles.td}>{paciente.id}</td>
+                                <td className={styles.td}>{paciente.nome}</td>
+                                <td className={styles.td}>{paciente.telefone}</td>
+                                <td className={styles.td}>{paciente.email}</td>
+                                <td className={styles.td}>{paciente.cpf}</td>
                             </tr>
                         ))}
                     </tbody>

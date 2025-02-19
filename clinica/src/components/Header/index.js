@@ -52,7 +52,7 @@ export default function Header() {
           <li className={styles.li}><Link className={styles.link} href="">Paciente</Link>
             <ul className={styles.ulSmenu}>
                   <li className={styles.liSmenu}>
-                    <Link className={styles.linkSmenu} href="/paciente/listar">Listar</Link>
+                    <Link className={styles.linkSmenu} href="/listarPaciente">Listar</Link>
                   </li>
                   <li className={styles.liSmenu}>
                     <Link className={styles.linkSmenu} href="/paciente/adicionar">Adicionar</Link>
@@ -68,7 +68,7 @@ export default function Header() {
           <li className={styles.li}><Link className={styles.link} href="">Agendamento</Link>
             <ul className={styles.ulSmenu}>
                   <li className={styles.liSmenu}>
-                    <Link className={styles.linkSmenu} href="/agendamento/listar">Listar Consultas</Link>
+                    <Link className={styles.linkSmenu} href="/listarAgendamento">Listar Consultas</Link>
                   </li>
                   <li className={styles.liSmenu}>
                     <Link className={styles.linkSmenu} href="/agendamento/adicionar">Agendar Consulta</Link>
@@ -109,7 +109,7 @@ export default function Header() {
           <li className={styles.liDesktop}><Link className={styles.linkDesktop} href="">Paciente</Link>
             <ul className={styles.ulSmenuDesktop}>
                     <li className={styles.liSmenuDesktop}>
-                      <Link className={styles.linkSmenuDesktop} href="/paciente/listar">Listar</Link>
+                      <Link className={styles.linkSmenuDesktop} href="/listarPaciente">Listar</Link>
                     </li>
                     <li className={styles.liSmenuDesktop}>
                       <Link className={styles.linkSmenuDesktop} href="/paciente/adicionar">Adicionar</Link>
@@ -125,7 +125,7 @@ export default function Header() {
           <li className={styles.liDesktop}><Link className={styles.linkDesktop} href="">Agendamento</Link>
             <ul className={styles.ulSmenuDesktop}>
                     <li className={styles.liSmenuDesktop}>
-                      <Link className={styles.linkSmenuDesktop} href="/agendamento/listar">Listar Consultas</Link>
+                      <Link className={styles.linkSmenuDesktop} href="/listarAgendamento">Listar Consultas</Link>
                     </li>
                     <li className={styles.liSmenuDesktop}>
                       <Link className={styles.linkSmenuDesktop} href="/agendamento/adicionar">Agendar Consulta</Link>
