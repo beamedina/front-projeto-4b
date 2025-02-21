@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --backmenu: #333f83;
-  --backgroundnav: #16236d;
+  --backmenu: #6378ee;
+  --backgroundnav: #465bd4;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,7 +16,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: rgb(78, 111, 182);
+  background-color: rgb(149, 181, 248);
 }
 
 .main {
@@ -53,6 +53,7 @@ body {
 
   h1 {
     text-align: center;
-    border: dashed rgb(36, 23, 160);
+    /* border: dashed rgb(36, 23, 160); */
+    color: rgb(23, 65, 156);
     font-family: "Sour Gummy", sans-serif;
   }

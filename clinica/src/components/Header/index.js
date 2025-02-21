@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <Image className={styles.img} src='/images/estetoscopio.png' alt='' width={40} height={40} />
+        <Image className={styles.img} src='/images/hospital.png' alt='' width={100} height={80} />
         <h1 className={styles.h1}>Clínica M.O</h1>
       </div>
       <button

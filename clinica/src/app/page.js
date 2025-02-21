@@ -5,11 +5,7 @@ export default function Home() {
   return (
     <div className={styles.containerPrincipal}>
       <h1>Clínica de Saúde M.O</h1>
-      <p>Boas-vindas ao site da nossa clínica! Aqui estarão disponíveis as informações sobre nossos médicos, pacientes e consultas.</p>
-      <div className={styles.divFotos}>
-        <Image className={styles.imgPage} src='/images/auscuta.jpg' alt='' width={500} height={300} />
-        <Image className={styles.imgPage} src='/images/anota.jpg' alt='' width={500} height={300} />
-      </div>
+      <p className={styles.text}>Nossa equipe de profissionais altamente qualificados está pronta para cuidar da sua saúde com dedicação e excelência. Oferecemos um atendimento humanizado, tecnologia de ponta e uma ampla gama de especialidades médicas para garantir seu bem-estar.</p>
     </div>
   );
 }
