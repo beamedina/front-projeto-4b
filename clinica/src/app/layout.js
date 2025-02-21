@@ -3,8 +3,8 @@ import Header from "@/components/Header"
 // import Footer from "@/components/Footer"
 
 export const metadata = {
-  title: "Cat",
-  description: "A gatinha mais perfeita",
+  title: "Clínica M.O",
+  description: "Sla mano",
   charset: 'UTF-8',
   author: 'Beatriz Alexandra',
   keywords: 'HTML, CSS, JavaScript, React, Next.js',
