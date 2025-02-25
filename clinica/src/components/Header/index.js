@@ -15,11 +15,11 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
+      <nav className={styles.nav}>
       <div className={styles.logo}>
         <Image className={styles.img} src='/images/healthcare.png' alt='' width={80} height={80} />
         <h1 className={styles.h1}>Clínica M.O</h1>
       </div>
-      <nav className={styles.nav}>
         <ul className={`${styles.menu} ${menuOpen ? styles.active : ""}`}>
           <li className={styles.itemMenu}>
             <a className={styles.linkMenu} href="/">
